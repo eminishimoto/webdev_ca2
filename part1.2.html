@@ -43,39 +43,26 @@
                  <p class="lead">This is Part1.2</p>
               </div> 
               <div class="col-lg-2 order-1 mb-3 d-flex flex-column gap-2 mx-auto align-items-stretch">
-                 <button name="1.2.1" class="btn btn-success btn-block" 
-                 data-sql="select count(emp_id) from employees 
-                  where hire_date = '1991-05-01' LIMIT 100" onClick="reply_click(this)">1.2.1
+                 <button name="1.2.1" class="btn btn-success btn-block"  
+                 data-sql="select count(emp_id) from employees&#10;where hire_date = '1991-05-01' LIMIT 100" onClick="reply_click(this)">1.2.1
                  </button>
                  <button name="1.2.2" class="btn btn-success btn-block"
-                 data-sql="select emp_id, count(title) as count_t from titles 
-                 group by emp_id
-                 having count_t  > 2 LIMIT 100" onClick="reply_click(this)">1.2.2
+                 data-sql="select emp_id, count(title) as count_t from titles&#10;group by emp_id&#10;having count_t  > 2 LIMIT 100" onClick="reply_click(this)">1.2.2
                  </button>
                  <button name="1.2.3" class="btn btn-success btn-block"
-                 data-sql="select * from employees
-                 where gender= 'F' LIMIT 100" onClick="reply_click(this)">1.2.3
+                 data-sql="select * from employees&#10;where gender= 'F' LIMIT 100" onClick="reply_click(this)">1.2.3
                  </button>
                  <button name="1.2.4" class="btn btn-success btn-block"
-                 data-sql="select * from employees
-                 where hire_date  like '1985%' and last_name = 'Simmel' LIMIT 100" onClick="reply_click(this)">1.2.4
+                 data-sql="select * from employees&#10;where hire_date like '1985%' and last_name = 'Simmel' LIMIT 100" onClick="reply_click(this)">1.2.4
                  </button>
                  <button name="1.2.5" class="btn btn-success btn-block"
-                 data-sql="select count(last_name) as count_l from employees
-                 where last_name like 'B%' LIMIT 100" onClick="reply_click(this)">1.2.5
+                 data-sql="select count(last_name) as count_l from employees&#10;where last_name like 'B%' LIMIT 100" onClick="reply_click(this)">1.2.5
                  </button>
                  <button name="1.2.6" class="btn btn-success btn-block"
-                 data-sql="create table emp_training(
-                    trainer_no integer primary key autoincrement,
-                    first_name  varchar(30)    NOT NULL,
-                    last_name   varchar(30)    NOT NULL,
-                    t_module    varchar(20)    NOT NULL )" onClick="reply_click(this)">1.2.6
+                 data-sql="create table emp_training(&#10;trainer_no integer primary key autoincrement,&#10;first_name  varchar(30)    NOT NULL,&#10;last_name   varchar(30)    NOT NULL,&#10;t_module    varchar(20)    NOT NULL )" onClick="reply_click(this)">1.2.6
                  </button>
                  <button name="1.2.7" class="btn btn-success btn-block"
-                 data-sql="insert into  emp_training (first_name, last_name, t_module) 
-                 values('Joe','Bloggs', 'Google Docs');
-                 insert into  emp_training (first_name, last_name, t_module)  
-                 values('Fred','Bloggs', 'Google Sheets')" onClick="reply_click(this)">1.2.7
+                 data-sql="insert into  emp_training (first_name, last_name, t_module)&#10;values('Joe','Bloggs', 'Google Docs');&#10;insert into  emp_training (first_name, last_name, t_module)&#10;values('Fred','Bloggs', 'Google Sheets')" onClick="reply_click(this)">1.2.7
                  </button>
                  <button name="1.2.8" class="btn btn-success btn-block"
                  data-sql="drop table emp_training" onClick="reply_click(this)">1.2.8
@@ -84,7 +71,7 @@
                  data-sql="ALTER TABLE employees ADD email_address varchar(20)" onClick="reply_click(this)">1.2.9
                  </button>
                  <button name="1.2.10" class="btn btn-success btn-block"
-                 data-sql="update employees set email_address = 'gfacello@gmail.com' where emp_id = 10001 " onClick="reply_click(this)">1.2.10
+                 data-sql="update employees set email_address = 'gfacello@gmail.com' &#10;where emp_id = 10001 " onClick="reply_click(this)">1.2.10
                  </button>
               </div>
               <div class="col-lg-10 order-2 border-success ">
