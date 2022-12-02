@@ -66,28 +66,25 @@
                  </button>
                  <button name="1.2.6" class="btn btn-success btn-block"
                  data-sql="create table emp_training(
-                    trainer_no int primary key auto_increment,
+                    trainer_no integer primary key autoincrement,
                     first_name  varchar(30)    NOT NULL,
                     last_name   varchar(30)    NOT NULL,
-                    t_module    varchar(20)    NOT NULL ) LIMIT 100" onClick="reply_click(this)">1.2.6
+                    t_module    varchar(20)    NOT NULL )" onClick="reply_click(this)">1.2.6
                  </button>
                  <button name="1.2.7" class="btn btn-success btn-block"
                  data-sql="insert into  emp_training (first_name, last_name, t_module) 
                  values('Joe','Bloggs', 'Google Docs');
                  insert into  emp_training (first_name, last_name, t_module)  
-                 values('Fred','Bloggs', 'Google Sheets') LIMIT 100" onClick="reply_click(this)">1.2.7
+                 values('Fred','Bloggs', 'Google Sheets')" onClick="reply_click(this)">1.2.7
                  </button>
                  <button name="1.2.8" class="btn btn-success btn-block"
-                 data-sql="drop table emp_training LIMIT 100" onClick="reply_click(this)">1.2.8
+                 data-sql="drop table emp_training" onClick="reply_click(this)">1.2.8
                  </button>
                  <button name="1.2.9" class="btn btn-success btn-block"
-                 data-sql="ALTER TABLE employees
-                 ADD email_address varchar(20)" onClick="reply_click(this)">1.2.9
+                 data-sql="ALTER TABLE employees ADD email_address varchar(20)" onClick="reply_click(this)">1.2.9
                  </button>
                  <button name="1.2.10" class="btn btn-success btn-block"
-                 data-sql="update employees
-                 set email_address = 'gfacello@gmail.com'
-                 where emp_id = 10001 LIMIT 100" onClick="reply_click(this)">1.2.10
+                 data-sql="update employees set email_address = 'gfacello@gmail.com' where emp_id = 10001 " onClick="reply_click(this)">1.2.10
                  </button>
               </div>
               <div class="col-lg-10 order-2 border-success ">
@@ -105,6 +102,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
-        <script  src="js/gui.js"></script>
+        <script type="text/javascript" src="gui.js"></script>
     </body>
 </html>
