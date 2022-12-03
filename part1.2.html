@@ -56,7 +56,7 @@
                  data-sql="select * from employees&#10;where hire_date like '1985%' and last_name = 'Simmel' LIMIT 100" onClick="reply_click(this)">1.2.4
                  </button>
                  <button name="1.2.5" class="btn btn-success btn-block"
-                 data-sql="select count(last_name) as count_l from employees&#10;where last_name like 'B%' LIMIT 100" onClick="reply_click(this)">1.2.5
+                 data-sql="select count(last_name) as totalWithB from employees&#10;where last_name like 'B%' LIMIT 100" onClick="reply_click(this)">1.2.5
                  </button>
                  <button name="1.2.6" class="btn btn-success btn-block"
                  data-sql="create table emp_training(&#10;trainer_no integer primary key autoincrement,&#10;first_name  varchar(30)    NOT NULL,&#10;last_name   varchar(30)    NOT NULL,&#10;t_module    varchar(20)    NOT NULL )" onClick="reply_click(this)">1.2.6
