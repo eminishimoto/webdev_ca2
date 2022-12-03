@@ -11317,3 +11317,35 @@ table {
 th, td {
 	border:1px solid #777;
 }
+
+#execute{
+  color: #fff;
+  background-color: #20c997;
+  border-color: #20c997;
+
+}
+
+.nav-tabs .nav-link.disabled {
+  color: #6c757d;
+  background-color: transparent;
+  border-color: transparent;
+}
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
+}
+/* .nav-link{
+  color:#fff;
+} */
+.nav-link.active{
+  font-weight: bold;
+}
+
+
+/* #left-button{
+  color: #fff;
+  background-color: #fff;
+  border-color: #20c997;
+} */
